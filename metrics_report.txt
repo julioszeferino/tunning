@@ -1,0 +1,43 @@
+Aggregated Metrics Summary
+====================
+
+numStages	18
+numTasks	584
+elapsedTime (seconds)	247.306
+elapsedTime (minutes)	4.121766666666667
+executorRunTime (seconds)	1336.143
+executorRunTime (minutes)	22.26905
+executorCpuTime (seconds)	1024.884
+executorCpuTime (minutes)	17.0814
+jvmGCTime (seconds)	27.448
+jvmGCTime (minutes)	0.4574666666666667
+peakExecutionMemory (MBs)	12862.493896484375
+shuffleTotalBytesRead (MBs)	58.44432830810547
+shuffleBytesWritten (MBs)	58.44432830810547
+recordsRead	849666146
+bytesRead (MBs)	11297.000023841858
+recordsWritten	212481044
+bytesWritten (MBs)	6627.588545799255
+
+Stage Metrics Report
+====================
+
+Stage ID	Stage Duration (ms)	Executor Run Time (ms)	Executor CPU Time (ms)	JVM GC Time (ms)	Shuffle Fetch Wait Time (ms)	Shuffle Write Time (ms)	Peak Execution Memory (bytes)	Records Read	Bytes Read (bytes)	Records Written	Bytes Written (bytes)	CPU Bound	Memory Bound	Network Bound	Spill	Skew	Shuffle	Serialization	Storage
+6	198211	1113245	835500	24995	0	0	5943121664	212416083	4417982166	212416083	6945041938	False	False	False	True	False	False	False	True
+10	23463	129787	119049	1102	0	614	415883232	212416083	3700814524	0	0	True	False	False	False	False	False	False	False
+15	12190	65053	56626	796	0	155	12183792	212416083	3725994231	0	0	True	False	False	False	False	False	False	False
+11	3853	17248	7377	166	219	0	13487302400	0	0	64959	4483807	False	False	False	False	False	False	False	True
+16	1962	5373	3617	193	0	0	199753664	0	0	2	4542	False	False	False	False	True	False	False	False
+2	1161	4139	1821	160	0	81	0	212416083	611225	0	0	False	False	False	False	True	False	False	False
+1	584	288	268	13	0	0	0	1	12331	0	0	True	False	False	False	True	False	False	False
+0	1040	193	52	12	0	0	0	0	0	0	0	False	False	False	False	True	False	False	False
+5	225	153	130	0	0	0	0	265	12331	0	0	True	False	False	False	True	False	False	False
+4	180	131	110	0	0	0	0	265	12331	0	0	True	False	False	False	True	False	False	False
+8	181	113	71	0	0	0	0	265	12331	0	0	False	False	False	False	True	False	False	False
+3	133	98	52	5	0	0	0	0	0	0	0	False	False	False	False	False	False	False	False
+7	172	96	71	0	0	0	0	15	24429	0	0	False	False	False	False	True	False	False	False
+12	120	86	61	0	0	0	0	203	246691	0	0	False	False	False	False	True	False	False	False
+9	117	52	18	6	0	0	0	265	12331	0	0	False	True	False	False	True	False	False	False
+14	53	34	26	0	0	0	0	265	12331	0	0	False	False	False	False	True	False	False	False
+13	49	28	21	0	0	0	0	265	12331	0	0	False	False	False	False	True	False	False	False
+17	60	26	14	0	0	0	0	5	3514	0	0	False	False	False	False	True	False	False	False
